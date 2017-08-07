@@ -20,7 +20,10 @@ The library uses precalculated NawRuz dates from http://wilmetteinstitute.org/wp
 
 For websites, use *BadiCal.js* in the *bundle* folder.
 
-NPM is TBA.
+Node
+```
+npm install badicaljs
+```
 
 ## Usage
 
