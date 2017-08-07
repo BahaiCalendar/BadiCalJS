@@ -1,0 +1,22 @@
+{
+  "name": "badicaljs",
+  "version": "1.0.0",
+  "description": "Library to translate between Gregorian and Badi calendars.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BahaiCalendar/BadiCalJS.git"
+  },
+  "keywords": [
+    "Bahai"
+  ],
+  "author": "Daniel Crawford <dmcblue@gmail.com> (http://www.dmcblue.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BahaiCalendar/BadiCalJS/issues"
+  },
+  "homepage": "https://github.com/BahaiCalendar/BadiCalJS#readme"
+}
