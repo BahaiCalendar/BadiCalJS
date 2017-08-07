@@ -11,7 +11,7 @@
     "url": "git+https://github.com/BahaiCalendar/BadiCalJS.git"
   },
   "keywords": [
-    "Bahai"
+    "bahai","calendar","badi","date","conversion"
   ],
   "author": "Daniel Crawford <dmcblue@gmail.com> (http://www.dmcblue.com)",
   "license": "MIT",
