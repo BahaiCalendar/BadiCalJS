@@ -40,11 +40,11 @@ BadiDate.prototype.monthName =
 	function(){
 		switch(this.type){
 			case constants.GREGORIAN:
-				return constants[this.m - 1];
+				return constants.GREGORIAN_MONTHS[this.m - 1];
 				break;
 			case constants.BADI:
 			default:
-				return constants[this.m - 1];
+				return constants.BADI_MONTHS[this.m - 1];
 		}
 	};
 BadiDate.prototype.day = 
@@ -176,6 +176,7 @@ module.exports = {
 };
 
 },{}],7:[function(require,module,exports){
+//build: browserify index.js --standalone BadiCal -o bundle/BadiCal.js
 var constants = require('./constants'),
 	BadiDate = require('./BadiDate');
 /**
